@@ -1,0 +1,27 @@
+    .navegacao {
+
+        background-color: #dda15e;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo{
+    padding-left: 3vh ;
+    font-size: 5vh;
+    font-family: cursive;
+    color: ;
+
+    }
+    
+    
+    .items {
+        display: flex;
+        gap: 5vh;
+        
+    }
+
+    .login1 {
+        display: flex;
+        gap: 2vh;
+    }
