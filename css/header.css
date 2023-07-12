@@ -1,27 +1,31 @@
-    .navegacao {
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&display=swap');
 
-        background-color: #dda15e;
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
+.navegacao {
+    background-color: #dda15e;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Belanosima', sans-serif
+}
 
-    .logo{
-    padding-left: 3vh ;
-    font-size: 5vh;
-    font-family: cursive;
-    color: ;
+.logo{
+font-weight: 700;
+padding-left: 2.7rem ;
+font-size: 2rem;
+}
 
-    }
+.items {
+    padding-top: 1.5rem ;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 2.5rem;
     
-    
-    .items {
-        display: flex;
-        gap: 5vh;
-        
-    }
+}
 
-    .login1 {
-        display: flex;
-        gap: 2vh;
-    }
+.login1 {
+    padding-right: 2.7rem;
+    padding-top: 1.5rem ;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 1.5rem;
+}
